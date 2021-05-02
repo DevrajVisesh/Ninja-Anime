@@ -9,8 +9,10 @@ let loadImage = (src, callback) => {
 };
 
 let imagePath = (frameNumber, animation) => {
-   return "images/" + animation +"/" + frameNumber + ".png";
+   return "https://github.com/DevrajVisesh/Ninja-Images/blob/master/images/" + animation + frameNumber + ".png/?raw=true";
 };
+
+
 
 let frame = {
    idle: [1, 2, 3, 4, 5, 6, 7, 8],
