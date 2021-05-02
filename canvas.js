@@ -101,6 +101,12 @@ loadImages((images) => {
          queuedAnimations.push("kick");
       } else if (key === "ArrowRight") {
          queuedAnimations.push("punch");
+      } else if ( key === "ArrowUp") {
+         queuedAnimations.push("forward");
+      } else if (key === "ArrowDown") {
+         queuedAnimations.push("backward");
+      } else if (key === " ") {
+         queuedAnimations.push("block");
       }   
    });
 })
