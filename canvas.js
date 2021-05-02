@@ -9,9 +9,8 @@ let loadImage = (src, callback) => {
 };
 
 let imagePath = (frameNumber, animation) => {
-   return "https://github.com/DevrajVisesh/Ninja-Anime/blob/master/images/" + animation + frameNumber + ".png/?raw=true";
+   return "https://github.com/DevrajVisesh/visesh-tekken-bc/tree/master/images" + animation + frameNumber + ".png/?raw=true";
 };
-
 
 
 let frame = {
